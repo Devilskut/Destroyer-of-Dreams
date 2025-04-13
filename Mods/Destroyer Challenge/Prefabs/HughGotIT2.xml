@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="Zoning" value="any" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="YOffset" value="-1" />
+  <property name="AllowedTownships" value="city,town,rural,wilderness" />
+  <property name="TraderArea" value="True" />
+  <property name="TraderAreaProtect" value="0,0,0" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="EditorGroups" value="any" />
+  <property name="QuestTags" value="trader, clear, fetch, crafting, restore_power, infested, traderHugh" />
+  <property name="DifficultyTier" value="0" />
+  <property name="ExcludePOICulling" value="True" />
+  <property name="SleeperIsBossVolume" value="False" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="Tags" value="wilderness, gateway" />
+  <property name="ThemeTags" value="trader, traderHugh" />
+  <property name="TeleportVolumeSize" value="" />
+  <property name="TeleportVolumeStart" value="" />
+  <property name="PrefabSize" value="6, 2, 3" />
+  <property class="IndexedBlockOffsets">
+    <property class="TraderOnOff">
+      <property name="0" value="0, 0, 1" />
+    </property>
+    <property class="Trader">
+      <property name="0" value="0, 0, 0" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="TotalVertices" value="122300" />
+    <property name="TotalTriangles" value="29861" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="122260" />
+      <property name="Triangles" value="29841" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="40" />
+      <property name="Triangles" value="20" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+</prefab>

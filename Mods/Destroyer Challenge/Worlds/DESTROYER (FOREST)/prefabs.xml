@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefabs>
+  <decoration type="model" name="installation_red_mesa" position="-819,40,-552" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="army_camp_07" position="-225,39,694" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="army_camp_05" position="-59,39,-545" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="army_camp_01" position="-354,38,-546" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="bombshelter_02" position="-209,38,355" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="army_camp_02" position="95,40,205" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="army_camp_06" position="-809,38,505" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="army_camp_03" position="-809,40,-245" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="UUSS_Arleigh_Burke_Destroyer_02" position="-507,55,75" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="DESTROYER_LEFT" position="-529,39,75" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="CF_army_camp_666" position="688,36,417" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="CF_Oil_Tanker" position="-453,39,75" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="DESTROYER_CENTER" position="-467,39,75" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="DESTROYER_RIGHT" position="-414,39,75" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_hub_main_01" position="433,40,-634" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="HughGotIT2" position="-490,56,228" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="part_HUGH_Gateway" position="-490,55,231" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="-627,39,192" rotation="3" y_is_groundlevel="true" />
+</prefabs>
