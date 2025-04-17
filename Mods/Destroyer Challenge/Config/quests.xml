@@ -120,40 +120,15 @@
 		    <reward type="Quest" id="quest_DestroyerChallenge01" />
 		 </quest>
 			 
-			 <quest id="quest_DestroyerChallenge01">
-				<property name="name_key" value="quest_DestroyerChallenge01"/>
-				<property name="subtitle_key" value="quest_DestroyerChallenge01_subtitle"/>
-				<property name="description_key" value="quest_DestroyerChallenge01_description"/>
-				<property name="icon" value="ui_game_symbol_gyrocopter"/>
-				<property name="repeatable" value="false"/>
-				<property name="category_key" value="quest"/>
-				<property name="offer_key" value="questDestroyerChallenge01_offer"/>
-				<property name="difficulty" value="medium"/>
-				<property name="shareable" value="false"/>
-
-				 <action type="TrackQuest"/>
-
-				 <objective type="FetchKeep" id="vehicleWheels" value="3" phase="1"/>
-				 <objective type="FetchKeep" id="smallEngine" value="2" phase="1"/>
-				 <objective type="FetchKeep" id="carBattery" value="2" phase="1"/>
-				 <objective type="FetchKeep" id="resourceForgedIron" value="50" phase="1"/>
-				 <objective type="FetchKeep" id="resourceElectricParts" value="100" phase="1"/>
-
-				 <objective type="Craft" id="ApacheS4" value="1" phase="2"/>
-
-				 <reward type="Exp" value="2500"/>
-				<reward type="Quest" id="quest_DestroyerChallenge02"/>
-			</quest>
-
 		<!-- UH-60 Supplies for accessories -->
 		
-         <quest id="quest_DestroyerChallenge02"> 
-			<property name="name_key" value="quest_DestroyerChallenge02"/>
-			<property name="subtitle_key" value="quest_DestroyerChallenge02_subtitle"/>
-			<property name="description_key" value="quest_DestroyerChallenge02_description"/>
+         <quest id="quest_DestroyerChallenge01"> 
+			<property name="name_key" value="quest_DestroyerChallenge01"/>
+			<property name="subtitle_key" value="quest_DestroyerChallenge01_subtitle"/>
+			<property name="description_key" value="quest_DestroyerChallenge01_description"/>
 			<property name="repeatable" value="false"/>
 			<property name="category_key" value="quest"/>
-			<property name="offer_key" value="quest_DestroyerChallenge02_offer"/>
+			<property name="offer_key" value="quest_DestroyerChallenge05_offer"/>
 			<property name="difficulty" value="medium"/>
 			<property name="shareable" value="true"/>
 
@@ -168,16 +143,16 @@
 			 <objective type="Craft" id="ApacheHelicopterCanopy" value="1" phase="2"/>
 
 			 <reward type="Exp" value="5000"/>
-	         <reward type="Quest" id="quest_DestroyerChallenge03"/>
+	         <reward type="Quest" id="quest_DestroyerChallenge02"/>
 	    </quest>
 		
-		<quest id="quest_DestroyerChallenge03">
-			<property name="name_key" value="quest_DestroyerChallenge03"/>
-			<property name="subtitle_key" value="quest_DestroyerChallenge03_subtitle"/>
-			<property name="description_key" value="quest_DestroyerChallenge03_description"/>
+		<quest id="quest_DestroyerChallenge02">
+			<property name="name_key" value="quest_DestroyerChallenge02"/>
+			<property name="subtitle_key" value="quest_DestroyerChallenge02_subtitle"/>
+			<property name="description_key" value="quest_DestroyerChallenge02_description"/>
 			<property name="repeatable" value="false"/>
 			<property name="category_key" value="quest" />
-			<property name="offer_key" value="quest_DestroyerChallenge03_offer" />
+			<property name="offer_key" value="quest_DestroyerChallenge02_offer" />
 			<property name="difficulty" value="medium" />
 			<property name="shareable" value="true"/>
 
@@ -190,18 +165,18 @@
 			<objective type="Craft" id="ApacheHelicopterCockpit" value="1" phase="2"/>
 
 			<reward type="Exp" value="5000"/>
-				<reward type="Quest" id="quest_DestroyerChallenge04">
+				<reward type="Quest" id="quest_DestroyerChallenge03">
 			</reward>			
 		</quest>
 		
-			<quest id="quest_DestroyerChallenge04">
-				<property name="name_key" value="quest_DestroyerChallenge04"/>
-				<property name="subtitle_key" value="quest_DestroyerChallenge04_subtitle"/>
-				<property name="description_key" value="quest_DestroyerChallenge04_description"/>
+			<quest id="quest_DestroyerChallenge03">
+				<property name="name_key" value="quest_DestroyerChallenge03"/>
+				<property name="subtitle_key" value="quest_DestroyerChallenge03_subtitle"/>
+				<property name="description_key" value="quest_DestroyerChallenge03_description"/>
 				<property name="icon" value="ui_game_symbol_gyrocopter"/>
 				<property name="repeatable" value="false"/>
 				<property name="category_key" value="quest"/>
-				<property name="offer_key" value="quest_DestroyerChallenge04_offer"/>
+				<property name="offer_key" value="quest_DestroyerChallenge03_offer"/>
 				<property name="difficulty" value="medium"/>
 				<property name="shareable" value="false"/>
 
@@ -216,17 +191,17 @@
 				<objective type="Craft" id="vehicleApacheHelicopterAccessories" value="2" phase="2"/>
 
 				<reward type="Exp" value="5000"/>
-				<reward type="Quest" id="quest_DestroyerChallenge05"/>
+				<reward type="Quest" id="quest_DestroyerChallenge04"/>
 			</quest>
 
-			<quest id="quest_DestroyerChallenge05">
-				<property name="name_key" value="quest_DestroyerChallenge05"/>
-				<property name="subtitle_key" value="quest_DestroyerChallenge05_subtitle"/>
-				<property name="description_key" value="quest_DestroyerChallenge05_description"/>
+			<quest id="quest_DestroyerChallenge04">
+				<property name="name_key" value="quest_DestroyerChallenge04"/>
+				<property name="subtitle_key" value="quest_DestroyerChallenge04_subtitle"/>
+				<property name="description_key" value="quest_DestroyerChallenge04_description"/>
 				<property name="icon" value="ui_game_symbol_gyrocopter"/>
 				<property name="repeatable" value="false"/>
 				<property name="category_key" value="quest"/>
-				<property name="offer_key" value="quest_DestroyerChallenge05_offer"/>
+				<property name="offer_key" value="quest_DestroyerChallenge04_offer"/>
 				<property name="difficulty" value="medium"/>
 				<property name="shareable" value="false"/>
 
@@ -241,9 +216,34 @@
 				<objective type="Craft" id="vehicleApacheHelicopterChassis" value="1" phase="2"/>
 
 				<reward type="Exp" value="5000"/>	
-				<reward type="Quest" id="quest_DestroyerChallenge06"/>
+				<reward type="Quest" id="quest_DestroyerChallenge05"/>
 			</quest>
 
+		<quest id="quest_DestroyerChallenge05">
+			<property name="name_key" value="quest_DestroyerChallenge05"/>
+			<property name="subtitle_key" value="quest_DestroyerChallenge05_subtitle"/>
+			<property name="description_key" value="quest_DestroyerChallenge05_description"/>
+			<property name="icon" value="ui_game_symbol_gyrocopter"/>
+			<property name="repeatable" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="offer_key" value="questDestroyerChallenge05_offer"/>
+			<property name="difficulty" value="medium"/>
+			<property name="shareable" value="false"/>
+
+			<action type="TrackQuest"/>
+
+			<objective type="FetchKeep" id="vehicleWheels" value="3" phase="1"/>
+			<objective type="FetchKeep" id="smallEngine" value="2" phase="1"/>
+			<objective type="FetchKeep" id="carBattery" value="2" phase="1"/>
+			<objective type="FetchKeep" id="resourceForgedIron" value="50" phase="1"/>
+			<objective type="FetchKeep" id="resourceElectricParts" value="100" phase="1"/>
+
+			<objective type="Craft" id="ApacheS4" value="1" phase="2"/>
+
+			<reward type="Exp" value="2500"/>
+			<reward type="Quest" id="quest_DestroyerChallenge06"/>
+		</quest>
+		
 			<quest id="quest_DestroyerChallenge06">
 				<property name="name_key" value="Apache Impact Driver"/>
 				<property name="subtitle_key" value="Gather parts and craft Apache Impact Driver."/>

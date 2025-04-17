@@ -57,7 +57,7 @@ AH-64ApacheHelicopter2Desc,Do not place this item until all parts are crafted fo
 
 meleeToolSalvageT3ImpactDriverAC,Apache Impact Driver
 
-meleeWpnBladeT3Machete,Devil's Machete
+meleeWpnBladeT1HuntingKnife,Devil's Blade
 gunBowT0PrimitiveBow,Techie's Silent Sentinel
 gunHandgunT1Pistol,Angelacus' Water Pistol
 
@@ -311,25 +311,25 @@ quest_DestroyerChallenge,"Find Trader"
 quest_DestroyerChallenge_subtitle,"Talk to Trader"
 quest_DestroyerChallenge_description,"Since you already know your orders lets get working on finding those parts. "
 
-quest_DestroyerChallenge01,"Gather AH-64 Parts 1/5 "
-quest_DestroyerChallenge01_subtitle,"Build a Starting helicopter"
-quest_DestroyerChallenge01_description,"Gather parts and craft a Starting helicopter"
+quest_DestroyerChallenge01,"Gather AH-64 Parts 1/5"
+quest_DestroyerChallenge01_subtitle,"Build  Apache Canopy"
+quest_DestroyerChallenge01_description,"Gather parts and craft an Apache Canopy in a cement mixer."
 
 quest_DestroyerChallenge02,"Gather AH-64 Parts 2/5"
-quest_DestroyerChallenge02_subtitle,"Build  Apache Canopy"
-quest_DestroyerChallenge02_description,"Gather parts and craft an Apache Canopy in a cement mixer."
+quest_DestroyerChallenge02_subtitle,"Build  Apache Cockpit"
+quest_DestroyerChallenge02_description,"Gather parts and craft an Apache Cockpit in a workbench."
 
 quest_DestroyerChallenge03,"Gather AH-64 Parts 3/5"
-quest_DestroyerChallenge03_subtitle,"Build  Apache Cockpit"
-quest_DestroyerChallenge03_description,"Gather parts and craft an Apache Cockpit in a workbench."
+quest_DestroyerChallenge03_subtitle,"Build Apache Accessories"
+quest_DestroyerChallenge03_description,"Gather parts and craft two Apache accessories in a workbench."
 
 quest_DestroyerChallenge04,"Gather AH-64 Parts 4/5"
-quest_DestroyerChallenge04_subtitle,"Build Apache Accessories"
-quest_DestroyerChallenge04_description,"Gather parts and craft two Apache accessories in a workbench."
+quest_DestroyerChallenge04_subtitle,"Build Apache Chassis"
+quest_DestroyerChallenge04_description,"Gather parts and craft an Apache Chassis in a workbench."
 
-quest_DestroyerChallenge05,"Gather AH-64 Parts 5/5"
-quest_DestroyerChallenge05_subtitle,"Build Apache Chassis"
-quest_DestroyerChallenge05_description,"Gather parts and craft an Apache Chassis in a workbench."
+quest_DestroyerChallenge05,"Gather AH-64 Parts 5/5 "
+quest_DestroyerChallenge05_subtitle,"Build a Starting helicopter"
+quest_DestroyerChallenge05_description,"Gather parts and craft a Starting helicopter"
 
 quest_DestroyerChallenge06,"Apache Impact Driver"
 quest_DestroyerChallenge06_subtitle,"Craft  Apache Impact Driver"
