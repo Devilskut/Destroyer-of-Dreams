@@ -235,6 +235,16 @@
 		<property name="DishongLootDropEntityClass" value="DishongLootContainerZombieFemaleLoot"/>
 		<property name="DishongLootDropProb" value="1"/>
 	</append>
+
+	<append xpath="//entity_class[starts-with(@name, 'zombieInmate')]">
+		<property name="DishongLootDropEntityClass" value="DishongLootContainerLumberjackLoot"/>
+		<property name="DishongLootDropProb" value="1"/>
+	</append>
+
+	<append xpath="//entity_class[starts-with(@name, 'zombieSpider')]">
+		<property name="DishongLootDropEntityClass" value="DishongLootContainerUtilityWorkerLoot"/>
+		<property name="DishongLootDropProb" value="1"/>
+	</append>
   
   <append xpath="/entity_classes">
 	<entity_class name="DishongLootContainer">

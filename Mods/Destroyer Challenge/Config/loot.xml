@@ -293,7 +293,6 @@
 		
 		<lootgroup name="groupZombieFemaleLoot" count="all">
 			<item name="foodSkillMagazineDT" prob=".1" force_prob="true" tags="FoodLoot"/>
-			<!-- <item group="groupClothingBooks" loot_prob_template="veryLow" force_prob="true" tags="ArLoot"/> -->
 		</lootgroup>
 		
 		<lootgroup name="groupRadZombieFemaleLoot" count="all">
@@ -438,7 +437,7 @@
 		</lootgroup>
 		
 		<lootgroup name="groupUtilityWorkerLoot" count="all">
-			<item name="workstationSkillMagazineDT" prob=".1" force_prob="true" tags="WSLoot"/>
+			<item name="workstationSkillMagazineDT" prob=".13" force_prob="true" tags="WSLoot"/>
 			<item group="groupWastelandTreasuresBooks" loot_prob_template="veryLow" force_prob="true" tags="STLoot"/>
 			<item group="groupMiningBooks" loot_prob_template="veryLow" force_prob="true" tags="HTLoot"/>
 			<item group="groupFiremanBooks" loot_prob_template="veryLow" force_prob="true" tags="SHLoot"/>
@@ -446,7 +445,7 @@
 		</lootgroup>
 		
 		<lootgroup name="groupRadUtilityWorkerLoot" count="all">
-			<item name="workstationSkillMagazineDT" prob=".13" force_prob="true" tags="WSLoot"/>
+			<item name="workstationSkillMagazineDT" prob="1" force_prob="true" tags="WSLoot"/>
 			<item group="groupWastelandTreasuresBooks" loot_prob_template="low" force_prob="true" tags="STLoot"/>
 			<item group="groupMiningBooks" loot_prob_template="low" force_prob="true" tags="HTLoot"/>
 			<item group="groupFiremanBooks" loot_prob_template="low" force_prob="true" tags="SHLoot"/>
@@ -473,12 +472,16 @@
 		</lootgroup>
 		
 		<lootgroup name="groupLumberjackLoot" count="all">
-			<item name="resourceSnowBall" count="5"/>			
+			<item name="harvestingToolsSkillMagazineDT" prob=".13" force_prob="true" tags="HTLoot"/>
+			<item name="workstationSkillMagazineDT" prob=".1" force_prob="true" tags="WSLoot"/>
+			<item name="resourceSnowBall" count="5"/>
+			<item name="resourceLockPick" count="2"/>
 		</lootgroup>
 		
 		<lootgroup name="groupMutatedLoot" count="all">
 			<item name="resourceAcid" count="1" prob=".1" force_prob="true"/>
-		</lootgroup>	
+		</lootgroup>
+
 	</insertafter>
 
 	<!-- Oil Barrels -->
